@@ -6,7 +6,7 @@
   "dependencies": {
     "jsonresume-theme-class": "0.1.2",
     "jsonresume-theme-kwan": "0.0.2",
-    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-onepage": "github:zhenghe-md/jsonresume-theme-onepage",
     "jsonresume-theme-short": "0.1.7",
     "jsonresume-theme-slick": "0.1.16",
     "jsonresume-theme-spartan": "0.2.1",
