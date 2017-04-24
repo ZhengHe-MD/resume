@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "郑鹤",
+    "label": "前端/全栈工程师",
+    "picture": "",
+    "email": "247156072@qq.com",
+    "phone": "15650709876",
+    "website": "https://github.com/ZhengHe-MD",
+    "summary": "本人有经济学本科、计算机硕士双重教育背景。去年3月以实习生身份加入天使轮公司马达数据，在公司期间负责维护几乎所有前端项目，后因公司转型离职。擅长用ReactJS全家桶进行Web开发，注重代码可读性、可测试性，平时习惯通过 Hacker News，Medium 等关注新旧技术的发展，也通过关注特定会议，如 React Conf，来关注有关技术及其社群的进步。",
+    "location": {
+      "address": "北京市海淀区中关村大街59号中国人民大学",
+      "postalCode": "1000872",
+      "city": "北京",
+      "countryCode": "中国",
+      "region": "海淀区"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ZhengHe-MD",
+        "url": "https://github.com/ZhengHe-MD"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "马达数据",
+      "position": "全栈工程师",
+      "website": "http://www.madadata.com/",
+      "startDate": "2016-03-15",
+      "endDate": "2017-04-17",
+      "summary": "马达数据成立于2015年，专注于为企业提供新一代商务智能(BI)产品，帮助企业高效整合、深入分析、互动展示内部及外接数据，从而帮助业务人员和管理层快速制定商业决策。马达数据产品后端可自动整合多数据源，不用找IT部门也能满足客户提出的新需求，强调高效查询、快速上手、交互性展示、多数据融合、安全性和细致的权限管理。",
+      "highlights": [
+        "整合多数据源的云平台",
+        "交互式ETL，创建图表",
+        "权限管理"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "对外经济贸易大学",
+      "area": "经济与金融荣誉实验班",
+      "studyType": "本科生",
+      "startDate": "2010-09-01",
+      "endDate": "2014-07-01",
+      "gpa": "3.7+"
+    },
+    {
+      "institution": "中国人民大学",
+      "area": "计算机应用技术",
+      "studyType": "研究生",
+      "startDate": "2014-09-01",
+      "endDate": "2017-07-01",
+      "gpa": "3.7+"
+    }
+  ],
+  "awards": [
+    {
+      "title": "研究生国家励志奖学金",
+      "date": "2015-12-01",
+      "awarder": "教育部",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Simplify the Basic Artificial Bee Colony Algorithm",
+      "publisher": "IEEE International Conference on Systems Man and Cybernetics Conference Proceedings",
+      "releaseDate": "2015-10-12",
+      "website": "http://www.smc2015.org/",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "熟练",
+      "keywords": [
+        "ReactJS",
+        "Webpack",
+        "Babel",
+        "Mocha/Tape",
+        "Redux",
+        "NodeJS",
+        "Docker",
+        "GraphQL",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "HTML/CSS",
+      "level": "熟练",
+      "keywords": [
+        "Postcss",
+        "Pug/Mustache"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "掌握",
+      "keywords": [
+        "Tensorflow",
+        "Keras",
+        "Numpy",
+        "Scipy",
+        "Requests",
+        "Flask"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "英语",
+      "fluency": "6级，书面阅读、书面交流无障碍"
+    }
+  ],
+  "interests": [
+    {
+      "name": "体育",
+      "keywords": [
+        "足球",
+        "羽毛球",
+        "长跑"
+      ]
+    },
+    {
+      "name": "音乐",
+      "keywords": [
+        "吉他",
+        "非洲鼓",
+        "箱鼓"
+      ]
+    },
+    {
+      "name": "计算机其它（非前端）",
+      "keywords": [
+        "群智能算法（遗传、蜂群算法等）",
+        "图像语义分割（全卷积神经网络等）"
+      ]
+    }
+  ]
+}
