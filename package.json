@@ -6,14 +6,16 @@
   "dependencies": {
     "jsonresume-theme-class": "0.1.2",
     "jsonresume-theme-kwan": "0.0.2",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-short": "0.1.7",
     "jsonresume-theme-slick": "0.1.16",
     "jsonresume-theme-spartan": "0.2.1",
     "jsonresume-theme-stackoverflow": "1.0.4",
     "resume-cli": "0.4.19"
   },
   "scripts": {
-    "pdf": "resume export resume.pdf --format pdf --theme spartan",
-    "html": "resume export resume.html --format html --theme spartan",
+    "pdf": "resume export resume.pdf --format pdf --theme onepage",
+    "html": "resume export resume.html --format html --theme onepage",
     "all": "npm run pdf && npm run html"
   },
   "keywords": [],

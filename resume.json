@@ -31,9 +31,9 @@
       "endDate": "2017-04-17",
       "summary": "马达数据成立于2015年，专注于为企业提供新一代商务智能(BI)产品，帮助企业高效整合、深入分析、互动展示内部及外接数据，从而帮助业务人员和管理层快速制定商业决策。马达数据产品后端可自动整合多数据源，不用找IT部门也能满足客户提出的新需求，强调高效查询、快速上手、交互性展示、多数据融合、安全性和细致的权限管理。",
       "highlights": [
-        "整合多数据源的云平台",
-        "交互式ETL，创建图表",
-        "权限管理"
+        "1. 公司主产品的前端和中后端（Express）项目的搭建、开发、维护。前端涉及用户注册、登录、管理、数据中心、制图及其展示界面，中后端涉及用户验证、相关路由、代理等设置。主项目和子项目之间有效解耦、独立开发。所有项目均有语法风格检查、单元测试、集成测试。主产品有端到端测试，项目使用 Npm Private Registry 管理，版本发布遵循 Semantic Versioning 规范。",
+        "2. 使用ReactDnd，实现通过拖拽生成图表的交互界面，使用 Apollo Client 与后端 GraphQL API 交流。",
+        "3. 公司官网的实现"
       ]
     }
   ],
@@ -78,14 +78,10 @@
       "level": "熟练",
       "keywords": [
         "ReactJS",
-        "Webpack",
-        "Babel",
-        "Mocha/Tape",
         "Redux",
         "NodeJS",
-        "Docker",
-        "GraphQL",
-        "Ansible"
+        "Mocha/Tape",
+        "Karma/Nightmare"
       ]
     },
     {
@@ -105,7 +101,18 @@
         "Numpy",
         "Scipy",
         "Requests",
-        "Flask"
+        "Flask",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "其它工具和协议",
+      "keywords": [
+        "Docker",
+        "Webpack",
+        "Babel",
+        "GraphQL",
+        "Restful"
       ]
     }
   ],
@@ -133,7 +140,7 @@
       ]
     },
     {
-      "name": "计算机其它（非前端）",
+      "name": "计算机其它（非Web开发）",
       "keywords": [
         "群智能算法（遗传、蜂群算法等）",
         "图像语义分割（全卷积神经网络等）"
