@@ -1,4 +1,4 @@
 # personal-resume
 
 [pdf](./resume.pdf)
-[html](./resume.html)
+[html](http://htmlpreview.github.io/?https://github.com/ZhengHe-MD/personal-resume/blob/master/resume.html)
