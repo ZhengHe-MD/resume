@@ -6,7 +6,7 @@
     "email": "ranchardzheng@gmail.com",
     "phone": "15650709876",
     "website": "https://github.com/ZhengHe-MD",
-    "summary": "有经济学、计算机双重教育背景，有扎实的计算机科学基础，喜欢接触不同的语言和范式，研究生期间主要从事随机优化算法以及图像语义分割的研究。实习期间曾在创业公司负责搭建、维护大部分前端项目；毕业后加入现公司，曾主导标注系统、数据集管理系统全栈开发,，近期主要负责 FaaS 项目的探索、设计及开发。",
+    "summary": "有经济学、计算机双重教育背景，有扎实的计算机科学基础，喜欢接触不同的语言和范式，研究生期间主要从事随机优化算法以及图像语义分割的研究。实习期间曾在创业公司负责搭建、维护大部分前端项目；毕业后加入现公司，曾主导标注系统、数据集管理系统全栈开发，近期主要负责 FaaS 平台的探索、设计及开发。",
     "location": {
       "address": "北京市丰台区东庄小区 22 号楼",
       "postalCode": "100069",
@@ -19,6 +19,11 @@
         "network": "Github",
         "username": "ZhengHe-MD",
         "url": "https://github.com/ZhengHe-MD"
+      },
+      {
+        "network": "Gitbook",
+        "username": "ZhengHe-MD",
+        "url": "https://zhenghe.gitbook.io/open-courses/"
       }
     ]
   },
@@ -28,11 +33,11 @@
       "position": "高级软件工程师",
       "website": "www.iqiyi.com",
       "startDate": "2017-07-12",
-      "summary": "在深度学习云平台组主导数据标注系统的设计及全栈开发，目前数据标注系统已经成为公司多媒体标注数据的最大供应商，开发团队已达 10 人规模；主导数据集管理系统早期的设计及全栈开发，为公司 AI 团队提供数据集的存储、管理服务；近期负责 FaaS 项目的探索、设计及开发。",
+      "summary": "主导数据标注系统的设计及全栈开发，目前数据标注系统已经成为公司多媒体标注数据的核心来源；主导数据集管理系统早期的设计及全栈开发，为公司 AI 团队提供数据集的存储、管理服务；近期负责 FaaS 平台项目的探索、设计及开发。在项目开发过程中，不拘泥语言和框架。",
       "highlights": [
         "1. 利用组件化、函数式状态管理等思想，设计并开发了通用标注类型，使得数据需求方能够通过配置数据类型和数量、问题类型和数量、标注类型、辅助信息的类型和数量来实现零开发自定义标注任务。",
-        "2. 根据 RFC6902 (JSON Patch) 设计数据集版本管理方案，为数据集版本管理打下基础。",
-        "3. 在三个项目的开发过程中，不拘泥语言和框架，在不同时期选择最合适的语言 (Java, Python, Go, JavaScript)、框架完成开发任务。"
+        "2. 根据 RFC6902 (JSON Patch) 设计并实现数据集版本管理方案，为数据集版本管理打下基础。",
+        "3. 短时间内调研 FaaS 服务现状、工作原理以及相关开源项目，搭建出可用、可扩展、有多租户概念的 FaaS 平台"
       ]
     },
     {
@@ -40,11 +45,8 @@
       "position": "全栈工程师",
       "startDate": "2016-03-15",
       "endDate": "2017-04-17",
-      "summary": "在初创企业马达数据实习，伴随团队成长。参与设计、开发公司大部分前端项目，在编程习惯、工程化、团队合作、信息搜集等各方面都得到良好的培养。后由于公司业务受阻，决定转型而退出。",
-      "highlights": [
-        "1. 负责主、子项目解耦方案的调研和实施。",
-        "2. 为主项目搭建单元测试、集成测试和端到端测试。"
-      ]
+      "summary": "在初创企业马达数据实习，伴随来自硅谷的团队成长。参与设计、开发公司大部分前端项目，在编程习惯、工程化、团队合作、信息搜集等各方面都得到良好的培养。后由于公司业务受阻，决定转型而退出。",
+      "highlights": []
     }
   ],
   "education": [
@@ -89,41 +91,31 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "编程语言",
       "level": "",
       "keywords": [
         "JavaScript",
-        "HTML/CSS",
-        "HTTP",
-        "React",
-        "Redux",
-        "NodeJS"
+        "Go",
+        "Python",
+        "Java"
       ]
     },
     {
-      "name": "Java",
+      "name": "计算机基础",
       "level": "",
       "keywords": [
-        "SpringMVC",
-        "Dropwizard",
-        "Guava"
+        "Data Structure & Algorithms",
+        "Computer Network",
+        "Structure and Interpretation of Computer Programs"
       ]
     },
     {
-      "name": "Go",
+      "name": "Web Development",
       "level": "",
       "keywords": [
-        "gin",
-        "concurrency"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": [
-        "Tensorflow",
-        "Numpy",
-        "Django"
+        "http",
+        "OpenAPI",
+        "html/css"
       ]
     },
     {
@@ -138,11 +130,12 @@
       "name": "其它理论、协议及工具",
       "keywords": [
         "Distributed System",
-        "Stochasic Optimization",
-        "Convolutional Neural Network",
+        "Docker",
         "Linux",
         "Vim",
-        "Docker"
+        "Git/Gitlab/Github",
+        "Stochasic Optimization",
+        "Convolutional Neural Network"
       ]
     }
   ],
@@ -150,23 +143,6 @@
     {
       "language": "英语",
       "fluency": "6级，书面阅读、书面交流无障碍"
-    }
-  ],
-  "interests": [
-    {
-      "name": "体育",
-      "keywords": [
-        "足球",
-        "羽毛球",
-        "马拉松"
-      ]
-    },
-    {
-      "name": "音乐",
-      "keywords": [
-        "吉他",
-        "非洲鼓"
-      ]
     }
   ]
 }
