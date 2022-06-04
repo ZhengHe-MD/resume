@@ -12,12 +12,13 @@
     "jsonresume-theme-slick": "0.1.16",
     "jsonresume-theme-spartan": "0.2.1",
     "jsonresume-theme-stackoverflow": "1.0.4",
-    "resume-cli": "0.4.19"
+    "resume-cli": "latest"
   },
   "scripts": {
     "pdf": "resume export resume.pdf --format pdf --theme onepage",
     "html": "resume export resume.html --format html --theme onepage",
-    "all": "npm run pdf && npm run html"
+    "all": "npm run pdf && npm run html",
+    "dev": "resume serve --theme onepage"
   },
   "keywords": [],
   "author": "Zheng He <zhenghe@madadata.com>",
