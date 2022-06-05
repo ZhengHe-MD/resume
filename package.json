@@ -16,9 +16,12 @@
   },
   "scripts": {
     "pdf": "resume export resume.pdf --format pdf --theme onepage",
+    "pdf-en": "resume export resume.pdf --format pdf --theme onepage --resume resume.en.json",
     "html": "resume export resume.html --format html --theme onepage",
-    "all": "npm run pdf && npm run html",
-    "dev": "resume serve --theme onepage"
+    "html-en": "resume export resume.html --format html --theme onepage --resume resume.en.json",
+    "all": "npm run pdf && npm run html && npm run pdf-en && npm run html-en",
+    "dev": "resume serve --theme onepage",
+    "dev-en": "resume serve --theme onepage --resume resume.en.json"
   },
   "keywords": [],
   "author": "Zheng He <zhenghe@madadata.com>",

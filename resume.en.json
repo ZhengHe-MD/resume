@@ -6,45 +6,67 @@
     "email": "ranchardzheng@gmail.com",
     "phone": "15650709876",
     "website": "https://github.com/ZhengHe-MD",
-    "summary": "有经济学、计算机双重教育背景，有扎实的计算机科学基础，喜欢接触不同的语言和范式，研究生期间主要从事随机优化算法以及图像语义分割的研究。实习期间曾在创业公司负责搭建、维护大部分前端项目；毕业后加入现公司，曾主导标注系统、数据集管理系统全栈开发,，近期主要负责 FaaS 项目的探索、设计及开发。",
+    "summary": "He has earned a bachelor's degree in Economics and a master's degree in Technology of Computer Application in Beijing, China. Eager to learn anything interesting, he is capable of conducting research in unfamiliar fields quickly when needed, and then output reports, sharing, even practical plans to solve real problems. He leads a software engineering team under the Middle Platform department for 2 years, focusing on improving server-side observability and make internal OA systems' development easy.",
     "location": {
-      "address": "北京市丰台区东庄小区 22 号楼",
-      "postalCode": "100069",
+      "address": "",
+      "postalCode": "",
       "city": "Beijing",
       "countryCode": "China",
-      "region": "FengTai District"
+      "region": "Haidian District"
     },
     "profiles": [
       {
         "network": "Github",
         "username": "ZhengHe-MD",
         "url": "https://github.com/ZhengHe-MD"
+      },
+      {
+        "network": "Blog",
+        "username": "",
+        "url": "https://zhenghe-md.github.io/blog/"
+      },
+      {
+        "network": "Gitbook",
+        "username": "ZhengHe-MD",
+        "url": "https://zhenghe.gitbook.io/open-courses/"
       }
     ]
   },
   "work": [
     {
+      "company": "PalFish, Inc",
+      "position": "Lead Software Engineer",
+      "website": "https://www.ipalfishclass.com/",
+      "startDate": "2019-04-15",
+      "summary": "",
+      "highlights": [
+        "Introduce the distributed tracing system into the infrastructure, improve the legacy monitoring and alerting systems, then build a server-side observability platform on top of them.",
+        "Build services that provide common utilities shared among all sorts of internal OA systems, including organizational structure management, authentication management, business process management and audit, in oder to speed up the development process.",
+        "Take over, maintain and refine the work of the payment system, audio algorithms due to layoffs after double-reduction policy.",
+        "Come up with the idea, run the project, and do the product design and server-side development of a language learning app, which utilizes Automatic Speech Recognition (ASR) and Voice Activity Detection (VAD) algorithms to automatically cut audios so that people can do listening, read-along practices with them, and is currently available on the Apple App Store.",
+        "Conduct 40+ tech-shares, host 100+ interviews, draft the standard of the first-round tech interview and do the corresponding training."
+      ]
+    },
+    {
       "company": "iQIYI, Inc",
       "position": "Software Engineer",
       "website": "https://www.iqiyi.com/common/aboutus.html",
       "startDate": "2017-07-12",
-      "summary": "在深度学习云平台组主导数据标注系统的设计及全栈开发，目前数据标注系统已经成为公司多媒体标注数据的最大供应商，开发团队已达 10 人规模；主导数据集管理系统早期的设计及全栈开发，为公司 AI 团队提供数据集的存储、管理服务；近期负责 FaaS 项目的探索、设计及开发。",
+      "endDate": "2019-04-01",
+      "summary": "",
       "highlights": [
-        "1. 利用组件化、函数式状态管理等思想，设计并开发了通用标注类型，使得数据需求方能够通过配置数据类型和数量、问题类型和数量、标注类型、辅助信息的类型和数量来实现零开发自定义标注任务。",
-        "2. 根据 RFC6902 (JSON Patch) 设计数据集版本管理方案，为数据集版本管理打下基础。",
-        "3. 在三个项目的开发过程中，不拘泥语言和框架，在不同时期选择最合适的语言 (Java, Python, Go, JavaScript)、框架完成开发任务。"
+        "Design and develop the multimedia data labeling systems, which becomes the main data source for several AI teams to conduct supervised learning;",
+        "Build the mvp version of a Function as a Service (FaaS) platform, but without adoption outside the team."
       ]
     },
     {
       "company": "Madadata, Inc",
-      "position": "Fullstack Engineer",
+      "position": "Front-end Engineer",
+      "website": "https://github.com/Madadata",
       "startDate": "2016-03-15",
       "endDate": "2017-04-17",
-      "summary": "在初创企业马达数据实习，伴随团队成长。参与设计、开发公司大部分前端项目，在编程习惯、工程化、团队合作、信息搜集等各方面都得到良好的培养。后由于公司业务受阻，决定转型而退出。",
-      "highlights": [
-        "1. 负责主、子项目解耦方案的调研和实施。",
-        "2. 为主项目搭建单元测试、集成测试和端到端测试。"
-      ]
+      "summary": "Intern as an front-end engineer in the startup, participate in serveral front-end projects, and learn a ton from the great engineers and leaders combing back from Silicon Valley, in coding, cooperating, information collecting and more.",
+      "highlights": []
     }
   ],
   "education": [
@@ -57,9 +79,9 @@
       "gpa": "3.7+"
     },
     {
-      "institution": "对外经济贸易大学",
-      "area": "经济与金融荣誉实验班",
-      "studyType": "本科生",
+      "institution": "University of International Business and Economics",
+      "area": "Economics",
+      "studyType": "Bachelor",
       "startDate": "2010-09-01",
       "endDate": "2014-07-01",
       "gpa": "3.7+"
@@ -67,9 +89,9 @@
   ],
   "awards": [
     {
-      "title": "研究生国家奖学金",
+      "title": "National Scholarship",
       "date": "2015-12-01",
-      "awarder": "教育部",
+      "awarder": "Ministry of Education",
       "summary": ""
     }
   ],
@@ -89,83 +111,63 @@
   ],
   "skills": [
     {
+      "name": "Programming Language",
+      "level": "",
+      "keywords": [
+        "Go",
+        "Javascript",
+        "Python",
+        "Java"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "",
       "keywords": [
-        "JavaScript",
-        "HTML/CSS",
-        "HTTP",
-        "React",
-        "Redux",
-        "NodeJS"
-      ]
-    },
-    {
-      "name": "Java",
-      "level": "",
-      "keywords": [
-        "SpringMVC",
-        "Dropwizard",
-        "Guava"
-      ]
-    },
-    {
-      "name": "Go",
-      "level": "",
-      "keywords": [
-        "gin",
-        "concurrency"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "",
-      "keywords": [
-        "Tensorflow",
-        "Numpy",
-        "Django"
+        "HTTP/gRPC/Thrift",
+        "Server-side Observability",
+        "HTML/CSS/React"
       ]
     },
     {
       "name": "Database",
       "level": "",
       "keywords": [
-        "RDB",
-        "NoSQL"
+        "Relational-MySQL, TiDB",
+        "Time series-Prometheus",
+        "KV-boltdb, Redis",
+        "Search engine-ElasticSearch, Zoekt",
+        "NoSQL-MongoDB"
       ]
     },
     {
-      "name": "其它理论、协议及工具",
+      "name": "Fundamentals",
       "keywords": [
-        "Distributed System",
-        "Stochasic Optimization",
-        "Convolutional Neural Network",
-        "Linux",
-        "Vim",
-        "Docker"
+        "Data structures and algorithms",
+        "Computer networking",
+        "Structure and Interpretation of Computer Programs",
+        "Distributed Systems",
+        "Introduction to Database Systems"
       ]
     }
   ],
   "languages": [
     {
-      "language": "英语",
-      "fluency": "6级，书面阅读、书面交流无障碍"
+      "language": "English",
+      "fluency": "CET-6, conversational"
+    },
+    {
+      "language": "Mandarin",
+      "fluency": "Native"
     }
   ],
   "interests": [
     {
-      "name": "体育",
+      "name": "Sports",
       "keywords": [
-        "足球",
-        "羽毛球",
-        "马拉松"
-      ]
-    },
-    {
-      "name": "音乐",
-      "keywords": [
-        "吉他",
-        "非洲鼓"
+        "run",
+        "badminton",
+        "soccer"
       ]
     }
   ]
