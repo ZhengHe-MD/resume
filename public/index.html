@@ -5,7 +5,7 @@
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
 
-	<title>He Zheng</title>
+	<title>郑鹤</title>
 
 	<style>
 	body {
@@ -168,9 +168,9 @@ a {
 	<div id='resume'>
   <div id='nameBlock' class='largeFont'>
     <span class='name'>
-      He Zheng,
+      郑鹤,
     </span>
-    <span class='label'>Software Engineer</span>
+    <span class='label'>软件工程师</span>
   </div>
   <div id='basicsBlock' class='smallFont'>
     <div class='contactBlock'>
@@ -179,7 +179,7 @@ a {
       <span class='phone'>15650709876</span>
         <span class='divider'>|</span>
         <span class='address'>
-          Beijing, Haidian District, China
+          北京, 海淀区, 中国
         </span>
     </div>
       <div id='profilesBlock'>
@@ -189,10 +189,6 @@ a {
             <span class='divider'>|</span>
             <span class='url'>
               <a href='https://zhenghe-md.github.io/blog/'>https://zhenghe-md.github.io/blog/</a>
-            </span>
-            <span class='divider'>|</span>
-            <span class='url'>
-              <a href='https://zhenghe.gitbook.io/open-courses/'>https://zhenghe.gitbook.io/open-courses/</a>
             </span>
             
       </div>
@@ -204,7 +200,7 @@ a {
       <span>SUMMARY</span>
     </div>
     <div class='sectionContent'>
-      <span>He has earned a bachelor&#x27;s degree in Economics and a master&#x27;s degree in Technology of Computer Application in Beijing, China. Eager to learn anything interesting, he is capable of conducting research in unfamiliar fields quickly when needed, and then output reports, sharing, even practical plans to solve real problems. He leads a software engineering team under the Middle Platform department for 2 years, focusing on improving server-side observability and make internal OA systems&#x27; development easy.</span>
+      <span>本人具有经济学和计算机教育背景，喜欢学习。研究生期间做过 2 年算法研究，实习期间用过 1 年 React 全家桶，工作后主要精力则放在了服务端开发上。能按需快速在陌生领域调研，输出调研报告、技术分享和实施方案，并将方案落地解决实际问题。在公司的技术中台部门带领一个服务端研发小组，有 2 年团队管理经验，团队规模在 2-10 人，主要负责服务端可观测性和内部基础服务搭建。</span>
     </div>
   </div>
   <div class='sectionLine'></div>
@@ -217,7 +213,7 @@ a {
 			<div class="jobBlock">
 	      <div class='blockHeader'>
 	        <span class='title'>
-	          PalFish, Inc, Lead Software Engineer
+	          北京读我科技有限公司, 技术专家
 	        </span>
 	        <span class='date'>
 	          2019-04-15 &mdash; Present
@@ -225,42 +221,27 @@ a {
 	      </div>
 	      <div><a href='https://www.ipalfishclass.com/'>https://www.ipalfishclass.com/</a></div>
 	      <ul class='highlights'>
-	        <li>Introduce the distributed tracing system into the infrastructure, improve the legacy monitoring and alerting systems, then build a server-side observability platform on top of them.</li>
-	        <li>Build services that provide common utilities shared among all sorts of internal OA systems, including organizational structure management, authentication management, business process management and audit, in oder to speed up the development process.</li>
-	        <li>Take over, maintain and refine the work of the payment system, audio algorithms due to layoffs after double-reduction policy.</li>
-	        <li>Come up with the idea, run the project, and do the product design and server-side development of a language learning app, which utilizes Automatic Speech Recognition (ASR) and Voice Activity Detection (VAD) algorithms to automatically cut audios so that people can do listening, read-along practices with them, and is currently available on the Apple App Store.</li>
-	        <li>Conduct 40+ tech-shares, host 100+ interviews, draft the standard of the first-round tech interview and do the corresponding training.</li>
+	        <li>分布式调用链追踪: 从无到有将调用链追踪系统 (Jaeger) 引入微服务治理体系，在 RPC (Thrift/gRPC) 、数据库、消息队列、缓存等跨进程连接处埋点，并撰写 ctx 注入脚本推动当时公司内部共 200+ (现 700+) 微服务完成迁移；为解决 Jaeger 仅支持 head-based 采样导致异常请求的调用链命中难的问题，引入 OpenTelemetry Collector，支持 tail-based 采样，实现「有意思的调用链全采集，没意思的调用链不采集」，为业务研发排障提速。相关工作详情记录在博客「调用链追踪在伴鱼：实践篇」中。</li>
+	        <li>可观测性平台: 将多个 Promtheus 实例数据复制到 VictoriaMetrics 集群中，聚合所有监控时序数据；将服务发布、SQL 上线、报警、权限修改等重要事件信息统一收集；结合之前已有的调用链、服务日志数据，搭建面向服务端研发的可观测性平台，遇到线上问题后，研发能够从调用链上定位问题服务、从监控看板中观察服务内部异常性能指标、并结合日志和事件信息寻找问题根因。</li>
+	        <li>代码检索平台：为回答「我的接口/服务有谁在调用？」这样的问题，经过调研，引入代码搜索引擎 Zoekt，帮助研发快速检索并定位自己维护的接口/服务的调用方，使得接口升级、服务下线过程更加平滑；在业务调整期间起到了较大的作用。此项工作难度不大，但起到的作用明显，ROI 高。相关调研详情记录在博客「代码搜索引擎：基础篇」中。</li>
+	        <li>内部基础服务：公司内部各业务为提升办公协作效率，需要开发许多内部系统支撑研发流程、客户关系管理、财务管理、营销触达等工作，为避免各研发团队重复造轮子、缩短交付周期，设计、开发、维护了一系列基础服务，如组织架构信息管理、鉴权管理、审计日志管理、流程管理 (基于 BPMN 2.0)、工单管理等。</li>
+	        <li>其它：曾在团队内部和公司级别做过 40+ 次技术分享，作为面试主持人参加过 100+ 场面试；因业务调整，维护过支付、商城、AI 语音团队的工作，对相关领域有基本的了解。</li>
 	      </ul>
 	      <div class='separator'></div>
 			</div>
 			<div class="jobBlock">
 	      <div class='blockHeader'>
 	        <span class='title'>
-	          iQIYI, Inc, Software Engineer
+	          北京奇艺世纪科技有限公司, 高级软件工程师
 	        </span>
 	        <span class='date'>
 	          2017-07-12 &mdash; 2019-04-01
 	        </span>
 	      </div>
-	      <div><a href='https://www.iqiyi.com/common/aboutus.html'>https://www.iqiyi.com/common/aboutus.html</a></div>
+	      <div><a href='www.iqiyi.com'>www.iqiyi.com</a></div>
 	      <ul class='highlights'>
-	        <li>Design and develop the multimedia data labeling systems, which becomes the main data source for several AI teams to conduct supervised learning;</li>
-	        <li>Build the mvp version of a Function as a Service (FaaS) platform, but without adoption outside the team.</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          Madadata, Inc, Front-end Engineer
-	        </span>
-	        <span class='date'>
-	          2016-03-15 &mdash; 2017-04-17
-	        </span>
-	      </div>
-	      <div><a href='https://github.com/Madadata'>https://github.com/Madadata</a></div>
-	      <ul class='highlights'>
-	        <li>Intern as an front-end engineer in the startup, participate in serveral front-end projects, and learn a ton from the great engineers and leaders combing back from Silicon Valley, in coding, cooperating, information collecting and more.</li>
+	        <li>设计、开发多媒体数据标注系统，后成为公司级 AI 团队标注数据的核心来源；</li>
+	        <li>探索 FaaS 的使用场景，搭建出支持多租户的初版 FaaS 平台，后期未能推广。</li>
 	      </ul>
 	      
 			</div>
@@ -275,14 +256,26 @@ a {
     <div class='sectionContent'>
       <div class='blockHeader'>
         <span class='title'>
-          Simplify the Basic Artificial Bee Colony Algorithm, IEEE International Conference on Systems Man and Cybernetics Conference Proceedings
+          代码搜索引擎：基础篇, InfoQ
         </span>
         <span class='date'>
-          <span class='releaseDate'>2015-10-12</span>
+          <span class='releaseDate'>2021-05-31</span>
         </span>
       </div>
       <div class='website'>
-        <a href='https://ieeexplore.ieee.org/document/7379506'>https://ieeexplore.ieee.org/document/7379506</a>
+        <a href='https://www.infoq.cn/article/X7LOtayeOD4FuqBzWxgX'>https://www.infoq.cn/article/X7LOtayeOD4FuqBzWxgX</a>
+      </div>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          调用链追踪系统在伴鱼：实践篇, InfoQ
+        </span>
+        <span class='date'>
+          <span class='releaseDate'>2021-03-06</span>
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://www.infoq.cn/article/pkY4SZfhBviFXrcRIQCr'>https://www.infoq.cn/article/pkY4SZfhBviFXrcRIQCr</a>
       </div>
       <div class='separator'></div>
       <div class='blockHeader'>
@@ -296,6 +289,18 @@ a {
       <div class='website'>
         <a href='https://ieeexplore.ieee.org/document/7748321'>https://ieeexplore.ieee.org/document/7748321</a>
       </div>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          Simplify the Basic Artificial Bee Colony Algorithm, IEEE International Conference on Systems Man and Cybernetics Conference Proceedings
+        </span>
+        <span class='date'>
+          <span class='releaseDate'>2015-10-12</span>
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://ieeexplore.ieee.org/document/7379506'>https://ieeexplore.ieee.org/document/7379506</a>
+      </div>
       
     </div>
 	</div>
@@ -308,7 +313,7 @@ a {
     <div class='sectionContent'>
       <div class='blockHeader'>
         <span class='title'>
-          National Scholarship, Ministry of Education
+          研究生国家奖学金, 教育部
         </span>
         <span class='date'>
           <span class='date'>2015-12-01</span>
@@ -327,25 +332,25 @@ a {
     <div class='sectionContent'>
       <div class='educationBlock'>
         <span class='title'>
-          Renmin University of China
+          中国人民大学
         </span>
         <span class='date'>
           2014-09-01 &mdash; 2017-07-01
         </span>
         <div class=''>
-          Master  - Stochastic Optimization and Image Segmentation, GPA: 3.7+
+          研究生  - 计算机应用技术, GPA: 3.7+
         </div>
       </div>
       <div class='separator'></div>
       <div class='educationBlock'>
         <span class='title'>
-          University of International Business and Economics
+          对外经济贸易大学
         </span>
         <span class='date'>
           2010-09-01 &mdash; 2014-07-01
         </span>
         <div class=''>
-          Bachelor  - Economics, GPA: 3.7+
+          本科生  - 经济与金融荣誉实验班, GPA: 3.7+
         </div>
       </div>
       
@@ -359,33 +364,34 @@ a {
     </div>
     <div class='sectionContent'>
       <div class='skillBlock'>
-        <span class='title'>Programming Language:</span>
+        <span class='title'>编程语言:</span>
           <span>Go</span>, 
-          <span>Javascript</span>, 
+          <span>JavaScript</span>, 
           <span>Python</span>, 
           <span>Java</span>
       </div>
       <div class='skillBlock'>
-        <span class='title'>Web Development:</span>
+        <span class='title'>应用开发:</span>
           <span>HTTP/gRPC/Thrift</span>, 
-          <span>Server-side Observability</span>, 
+          <span>Clean Architecture</span>, 
+          <span>服务治理/可观测性</span>, 
           <span>HTML/CSS/React</span>
       </div>
       <div class='skillBlock'>
-        <span class='title'>Database:</span>
-          <span>Relational-MySQL, TiDB</span>, 
-          <span>Time series-Prometheus</span>, 
-          <span>KV-boltdb, Redis</span>, 
-          <span>Search engine-ElasticSearch, Zoekt</span>, 
+        <span class='title'>数据库:</span>
+          <span>关系型数据库-MySQL, TiDB</span>, 
+          <span>时序数据库-Prometheus</span>, 
+          <span>键值数据库-boltdb, Redis</span>, 
+          <span>搜索引擎-ElasticSearch, Zoekt</span>, 
           <span>NoSQL-MongoDB</span>
       </div>
       <div class='skillBlock'>
-        <span class='title'>Fundamentals:</span>
-          <span>Data structures and algorithms</span>, 
-          <span>Computer networking</span>, 
-          <span>Structure and Interpretation of Computer Programs</span>, 
-          <span>Distributed Systems</span>, 
-          <span>Introduction to Database Systems</span>
+        <span class='title'>计算机基础-喜欢的课程:</span>
+          <span>数据结构与算法-6.006</span>, 
+          <span>计算机网络-CS436</span>, 
+          <span>计算机程序的构造与解释-SICP</span>, 
+          <span>分布式系统-6.824</span>, 
+          <span>数据库系统导论-CS15-445/645</span>
       </div>
     </div>
 	</div>
@@ -396,11 +402,11 @@ a {
       <span>LANGUAGES</span>
     </div>
     <div class='sectionContent'>
-      <span class='language'>English</span>
-      <span class='fluency'><em>(CET-6, conversational)</em></span>
+      <span class='language'>英语</span>
+      <span class='fluency'><em>(6 级；有定期找外教练习，口语可以日常交流)</em></span>
       <span>,</span>
-      <span class='language'>Mandarin</span>
-      <span class='fluency'><em>(Native)</em></span>
+      <span class='language'>中文</span>
+      <span class='fluency'><em>(母语)</em></span>
       
     </div>
     <div class='sectionLine'></div>
@@ -411,13 +417,13 @@ a {
       <span>INTERESTS</span>
     </div>
     <div class='sectionContent'>
-      <span class='name'>Sports</span><!--
+      <span class='name'>运动</span><!--
       --><span class='keywords'> <em>[
-        run<!--
+        跑步<!--
         -->, 
-        badminton<!--
+        足球<!--
         -->, 
-        soccer<!--
+        羽毛球<!--
         -->
       ]</em></span><!--
       -->

@@ -190,10 +190,6 @@ a {
             <span class='url'>
               <a href='https://zhenghe-md.github.io/blog/'>https://zhenghe-md.github.io/blog/</a>
             </span>
-            <span class='divider'>|</span>
-            <span class='url'>
-              <a href='https://zhenghe.gitbook.io/open-courses/'>https://zhenghe.gitbook.io/open-courses/</a>
-            </span>
             
       </div>
   </div>
@@ -204,7 +200,7 @@ a {
       <span>SUMMARY</span>
     </div>
     <div class='sectionContent'>
-      <span>本人具有经济学和计算机教育背景，喜欢学习，能按需快速在陌生领域调研，输出调研报告、技术分享和实施方案，并最终将方案落地解决实际问题。在公司的技术中台部门带领一个研发小组，有 2 年团队管理经验，团队规模在 2-10 人，主要负责服务端可观测性平台、内部员工系统搭建。</span>
+      <span>本人具有经济学和计算机教育背景，喜欢学习，研究生期间做过 2 年算法研究、实习期间用过 1 年 React 全家桶、工作后主要精力则放在了服务端开发上。能按需快速在陌生领域调研，输出调研报告、技术分享和实施方案，并将方案落地解决实际问题。在公司的技术中台部门带领一个服务端研发小组，有 2 年团队管理经验，团队规模在 2-10 人，主要负责服务端可观测性和内部基础服务搭建。</span>
     </div>
   </div>
   <div class='sectionLine'></div>
@@ -225,11 +221,11 @@ a {
 	      </div>
 	      <div><a href='https://www.ipalfishclass.com/'>https://www.ipalfishclass.com/</a></div>
 	      <ul class='highlights'>
-	        <li>将调用链追踪引入微服务治理体系，后通过结合监控、报警相关系统，逐渐形成面向服务端研发的可观测性平台；</li>
-	        <li>通过构建组织架构、鉴权管理、流程管理、审计日志等相关基础服务，为内部面向销售、运营、教研等各职能员工的系统开发提速；</li>
-	        <li>因公司调整陆续接手支付中台、AI 语音等相关团队的工作，同时参与用户增长的探索；</li>
-	        <li>负责一个语言学习 App 的产品设计和服务端开发，该 App 可以自动将音频分段供用户做跟读练习，目前已经上架苹果 App Store；</li>
-	        <li>曾做过 40+ 次技术分享，参与 100+ 场面试，负责技术第一轮面试标准、流程制定及面试主持人培训。</li>
+	        <li>分布式调用链追踪: 从无到有将调用链追踪系统 (Jaeger) 引入微服务治理体系，在 RPC (Thrift/gRPC) 、数据库、消息队列、缓存等跨进程连接处埋点，并撰写代码注入脚本推动当时公司内部共 200+ (现 700+) 微服务完成迁移；为解决 Jaeger 仅支持 head-based 采样导致异常请求的调用链命中难的问题，引入 OpenTelemetry Collector，支持 tail-based 采样，实现「有意思的调用链全采集，没意思的调用链不采集」，为业务研发排障提速。相关工作详情记录在博客「调用链追踪在伴鱼：实践篇」中。</li>
+	        <li>可观测性平台: 将多个 Promtheus 实例数据复制到 VictoriaMetrics 集群中，聚合所有监控时序数据；将服务发布、SQL 上线、报警、权限修改等重要事件信息统一收集；结合之前已有的调用链、服务日志数据，搭建面向服务端研发的可观测性平台，遇到线上问题后，研发能够从调用链上定位问题服务、从监控看板中观察服务内部异常性能指标、并结合日志和事件信息寻找问题根因。</li>
+	        <li>代码检索平台：为回答「我的接口/服务有谁在调用？」这样的问题，经过调研，引入 Zoekt 项目，帮助研发快速检索并定位自己维护的接口/服务的调用方，使得接口升级、服务下线过程更加平滑；在业务调整期间起到了较大的作用。此项工作难度不大，但起到的作用明显，ROI 高。相关调研详情记录在博客「代码搜索引擎：基础篇」中。</li>
+	        <li>内部基础服务：公司内部各业务为提升办公协作效率，需要开发许多内部系统支撑研发流程、客户关系管理、财务管理、营销触达等工作，为避免各研发团队重复造轮子、缩短交付周期，开发、维护了一系列基础服务，如组织架构信息管理、鉴权管理、审计日志管理、流程管理 (基于 BPMN 2.0)、工单管理等。</li>
+	        <li>其它：曾在团队内部和公司级别做过 40+ 次技术分享，作为面试主持人参加过 100+ 场面试；因业务调整，维护过支付、商城、AI 语音团队的工作，对相关领域有基本的了解。</li>
 	      </ul>
 	      <div class='separator'></div>
 			</div>
@@ -246,21 +242,6 @@ a {
 	      <ul class='highlights'>
 	        <li>设计、开发多媒体数据标注系统，后成为公司级 AI 团队标注数据的核心来源；</li>
 	        <li>探索 FaaS 的使用场景，搭建出支持多租户的初版 FaaS 平台，后期未能推广。</li>
-	      </ul>
-	      <div class='separator'></div>
-			</div>
-			<div class="jobBlock">
-	      <div class='blockHeader'>
-	        <span class='title'>
-	          马达数据, 前端工程师
-	        </span>
-	        <span class='date'>
-	          2016-03-15 &mdash; 2017-04-17
-	        </span>
-	      </div>
-	      <div><a href='https://github.com/Madadata'>https://github.com/Madadata</a></div>
-	      <ul class='highlights'>
-	        <li>在初创企业马达数据实习，参与多数前端项目开发。实习期间，在编程习惯、工程实践、团队合作、信息搜集等各方面都从海归团队身上受益良多。</li>
 	      </ul>
 	      
 			</div>
@@ -295,6 +276,30 @@ a {
       </div>
       <div class='website'>
         <a href='https://ieeexplore.ieee.org/document/7379506'>https://ieeexplore.ieee.org/document/7379506</a>
+      </div>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          调用链追踪系统在伴鱼：实践篇, InfoQ
+        </span>
+        <span class='date'>
+          <span class='releaseDate'>2021-03-06</span>
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://www.infoq.cn/article/pkY4SZfhBviFXrcRIQCr'>https://www.infoq.cn/article/pkY4SZfhBviFXrcRIQCr</a>
+      </div>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          代码搜索引擎：基础篇, InfoQ
+        </span>
+        <span class='date'>
+          <span class='releaseDate'>2021-05-31</span>
+        </span>
+      </div>
+      <div class='website'>
+        <a href='https://www.infoq.cn/article/X7LOtayeOD4FuqBzWxgX'>https://www.infoq.cn/article/X7LOtayeOD4FuqBzWxgX</a>
       </div>
       
     </div>
@@ -381,7 +386,7 @@ a {
           <span>NoSQL-MongoDB</span>
       </div>
       <div class='skillBlock'>
-        <span class='title'>计算机基础-课程:</span>
+        <span class='title'>计算机基础-喜欢的课程:</span>
           <span>数据结构与算法-6.006</span>, 
           <span>计算机网络-CS436</span>, 
           <span>计算机程序的构造与解释-SICP</span>, 
@@ -398,7 +403,7 @@ a {
     </div>
     <div class='sectionContent'>
       <span class='language'>英语</span>
-      <span class='fluency'><em>(6 级；口语可以简单交流)</em></span>
+      <span class='fluency'><em>(6 级；有定期找外教练习，口语可以日常交流)</em></span>
       <span>,</span>
       <span class='language'>中文</span>
       <span class='fluency'><em>(母语)</em></span>
